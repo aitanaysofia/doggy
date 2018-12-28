@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Noticias | Veterinaria Doggy</title>
+  <link rel="icon" type="GRECO.jpg" href="Imágenes/GRECO.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+</head>
+<body>
+
+  <header>
+
+    <h1>VETERINARIA DOGGY</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="Index.html">INICIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Servicios.html">SERVICIOS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CUIDADOS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Alimentacion.html">ALIMENTACIÓN</a>
+            <a class="dropdown-item" href="Habitos.html">HÁBITOS SALUDABLES</a>
+
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Protectoras.html">PROTECTORAS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Noticias.html">NOTICIAS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Contacto.html">CONTACTO <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+</script>
+
+<p>Aquí encontrarás noticias de actualidad relacionadas.</p>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia1.jpg" class="card-img-top" alt="Noticia1">
+      <div class="card-body">
+        <h3 class="card-title">Reino Unido prohibe vender cachorros de perros y gatos en las tiendas</h3>
+        <p class="card-text">El ministerio de Bienestar Animal británico pretende acabar con la explotación de mascotas y con los intermediarios.</p>
+        <a href="https://elpais.com/elpais/2018/12/26/animalesycia/1545848729_054543.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia2.jpg" class="card-img-top" alt="Noticia2">
+      <div class="card-body">
+        <h3 class="card-title">Cinco consejos para que tu perro no se muera de miedo con los petardos y pueda pasar unas felices fiestas</h3>
+        <p class="card-text">El problema afecta a entre un 30% y un 40% de los canes.</p>
+        <a href="https://elpais.com/elpais/2018/12/21/buenavida/1545402177_071987.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia3.jpg" class="card-img-top" alt="Noticia3">
+      <div class="card-body">
+        <h3 class="card-title">Cinco detenidos por los incidentes en la protesta contra el policía que abatió a una perra en Barcelona</h3>
+        <p class="card-text">Un grupo de personas lanzó objetos a los Mossos al final de la concentración que exigió justicia para 'Sota'.</p>
+        <a href="https://elpais.com/ccaa/2018/12/23/catalunya/1545557343_359710.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia4.jpg" class="card-img-top" alt="Noticia4">
+      <div class="card-body">
+        <h3 class="card-title">‘Marley’ y ‘Athor’, dos ‘sabuesos’ para desentrañar un crimen</h3>
+        <p class="card-text">La portavoz socialista, Sandra Gómez, tendrá que ser operada de la mano derecha</p>
+        <a href="https://elpais.com/sociedad/2018/12/21/actualidad/1545384459_008173.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia9.jpg" class="card-img-top" alt="Noticia5">
+      <div class="card-body">
+        <h3 class="card-title">Los animalistas exigen que se investigue a un policía que abatió a un perro en Barcelona</h3>
+        <p class="card-text">Testigos de los hechos aseguran que el animal no estaba mordiendo al agente de la Guardia Urbana.</p>
+        <a href="https://elpais.com/sociedad/2018/12/19/actualidad/1545244460_121680.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia6.jpg" class="card-img-top" alt="Noticia6">
+      <div class="card-body">
+        <h3 class="card-title">Y, de repente, Lío</h3>
+        <p class="card-text">La conexión humana-canina, seguro que muchos saben a qué me refiero.</p>
+        <a href="https://elpais.com/ccaa/2018/12/13/madrid/1544711522_477782.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia7.jpg" class="card-img-top" alt="Noticia7">
+      <div class="card-body">
+        <h3 class="card-title">"Sully" </h3>
+        <p class="card-text">El perro guía del expresidente de EE UU George H. W. Bush que ‘vela’ su ataúd</p>
+        <a href="https://elpais.com/elpais/2018/12/03/mundo_animal/1543855241_901812.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia8.jpg" class="card-img-top" alt="Noticia8">
+      <div class="card-body">
+        <h3 class="card-title">Perros PPP</h3>
+        <p class="card-text">Qué se considera un perro peligroso</p>
+        <a href="https://elpais.com/elpais/2018/11/24/mundo_animal/1543065754_534939.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="Imagenes/noticia5.jpg" class="card-img-top" alt="Noticia9">
+      <div class="card-body">
+        <h3 class="card-title">La primera teniente de alcalde de Valencia, hospitalizada tras ser atacada por dos perros</h3>
+        <p class="card-text">El problema afecta a entre un 30% y un 40% de los canes.</p>
+        <a href="https://elpais.com/politica/2018/12/17/actualidad/1545047897_357637.html" class="btn btn-primary">Noticia</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+  <h5>Nos puedes encontar en:</h5>
+  <a href="https://twitter.com/VeterinariaDog2" class="btn btn-outline-light" role="button" aria-pressed="true">Twitter</a>
+  <a href="https://www.instagram.com/veterinariadoggy/?hl=es" class="btn btn-outline-light" role="button" aria-pressed="true">Instagram</a>
+
+</footer>
+</html>

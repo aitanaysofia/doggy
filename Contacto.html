@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Contacto | Veterinaria Doggy</title>
+  <link rel="icon" type="GRECO.jpg" href="Imágenes/GRECO.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+</head>
+<body>
+
+  <header>
+    <h1>VETERINARIA DOGGY</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="Index.html">INICIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Servicios.html">SERVICIOS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CUIDADOS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Alimentacion.html">ALIMENTACIÓN</a>
+            <a class="dropdown-item" href="Habitos.html">HÁBITOS SALUDABLES</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Protectoras.html">PROTECTORAS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Noticias.html">NOTICIAS <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Contacto.html">CONTACTO <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h3>Acerca de</h3>
+  <img src="Imagenes/Greco.jpg" class="rounded float-right" alt="Greco">
+  <p>Escriba su nombre:
+    <input name="firstname" type="text"></p>
+
+    <p> Escriba el ausunto:
+      <select name="Asunto">
+        <option value="Cita">Cita</option>
+        <option value="Colsulta online">Colsulta</option>
+        <option value="Emergencia">Emergencia</option>
+        <option value="Otro asunto">Otro</option>
+      </p>
+    </select>
+    <p> Contenido:</p>
+    <p> <textarea name="Escribe" rows="10" cols="30">
+    </textarea></p>
+    <p><button type="button" onclick="alert('Intentaremos contestar cuanto antes')">Enviar</button></p>
+
+
+  </body>
+
+
+  <footer>
+    <h5>Nos puedes encontar en:</h5>
+    <a href="https://twitter.com/VeterinariaDog2" class="btn btn-outline-light" role="button" aria-pressed="true">Twitter</a>
+    <a href="https://www.instagram.com/veterinariadoggy/?hl=es" class="btn btn-outline-light" role="button" aria-pressed="true">Instagram</a>
+  </footer>
+  </html>
